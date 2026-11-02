@@ -2,11 +2,9 @@
  * DATABASE PREDEFINITO (Puoi inserire o modificare i dati direttamente qui)
  */
 const DATABASE_INIZIALE = [
-    { id: 1, nome: "Marco", cognome: "Rossi", classe: "4A INFO", azienda: "Tech Solutions Srl", tutor: "Ing. Bianchi", oreSvolte: 45, oreTotali: 90, stato: "In corso" },
-    { id: 2, nome: "Giulia", cognome: "Verdi", classe: "4A INFO", azienda: "Web Design Lab", tutor: "Sara Neri", oreSvolte: 90, oreTotali: 90, stato: "Completato" },
-    { id: 3, nome: "Luca", cognome: "Ferrari", classe: "5B MEC", azienda: "Meccanica Avanzata SpA", tutor: "Roberto Romano", oreSvolte: 120, oreTotali: 150, stato: "In corso" },
-    { id: 4, nome: "Sofia", cognome: "Esposito", classe: "4B CAT", azienda: "Studio Tecnico Geometri", tutor: "Geom. Viola", oreSvolte: 0, oreTotali: 80, stato: "In attesa" },
-    { id: 5, nome: "Alessandro", cognome: "Romano", classe: "5A INFO", azienda: "Cloud Systems", tutor: "Marco Gialli", oreSvolte: 60, oreTotali: 90, stato: "In corso" }
+    { id: 1, nome: "Francesco", cognome: "Abbamonte", classe: "3FVE", azienda: "Officine Srl", tutor: "Nicholas Fattori", oreSvolte: 45, oreTotali: 90, stato: "In corso" },
+    { id: 2, nome: "Egli", cognome: "Ajdini", classe: "3FVE", azienda: "Laboratori Meccanici Srl", tutor: "Nicholas Fattori", oreSvolte: 90, oreTotali: 90, stato: "Completato" },
+    { id: 3, nome: "Andrea", cognome: "Bissolo", classe: "3FVE", azienda: "Meccanica Avanzata SpA", tutor: "Nicholas Fattori", oreSvolte: 120, oreTotali: 150, stato: "In corso" },
 ];
 
 // Carica il database da LocalStorage o usa quello iniziale
